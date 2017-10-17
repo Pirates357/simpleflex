@@ -3,14 +3,17 @@
   background-color: #343434;
   color: #fff;
   padding-top: 40px;
+  width: 100%;
 }
 hr{ 
-  width: 50px;
+  width: 90px;
   margin: 0px auto;
+  padding: 5px;
 }
 
 .content-type{
   display: flex;
+  padding-bottom: 20px;
 }
 
 .content-item{
@@ -19,4 +22,23 @@ hr{
   background-color: #626262;
   margin: 10px;
   text-align: center;
+  border-bottom: 6px solid #B2CD80;
+  transition: .5s;
+  font-weight: bold;
+}
+
+.content-item:hover{
+  transform: scale(1.1);
+  background-color: #818181;
+}
+.content-item > span{
+  font-size: 4em;
+  padding: 60px 0px 25px 0px;
+  color: #334451;
+}
+
+.content-item > p{
+  padding: 20px 80px 30px 80px;
+  color: #343434;
+  font-weight: normal;
 }
