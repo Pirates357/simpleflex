@@ -9,33 +9,8 @@
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/slide.js" > </script>
 
-	<script>
-	$(document).ready(function(){
-	  // Add smooth scrolling to all links
-	  $("a").on('click', function(event) {
-
-	    // Make sure this.hash has a value before overriding default behavior
-	    if (this.hash !== "") {
-	      // Prevent default anchor click behavior
-	      event.preventDefault();
-
-	      // Store hash
-	      var hash = this.hash;
-
-	      // Using jQuery's animate() method to add smooth page scroll
-	      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-	      $('html, body').animate({
-	        scrollTop: $(hash).offset().top
-	      }, 800, function(){
-	   
-	        // Add hash (#) to URL when done scrolling (default click behavior)
-	        window.location.hash = hash;
-	      });
-	    } // End if
-	  });
-	});
-	</script>
 
 </head>
 
@@ -108,75 +83,77 @@
 <!--Our Service-->
 <section class="services" id="services">
 	<div class="container">
-	<div class="services_title">
-	<h2>Our services</h2>
-	<p>We specialize in providing unique clean-coded, and powerful themes with outstanding free support!</p>
-	</div>
-	<div class="row services__block">
-	<div class="col-md-5 services_type">
-	<div class="row">
-	<div class="col-sm-3">
-	<p class="services--icon"><i class="fa fa-camera" aria-hidden="true"></i></p>
-	</div>
-	<div class="col-sm-8 services--discription">
-	<h4>Photo</h4>
-	<p>In photography there is a reality so subtle that it becomes more real than reality.</p>
-	</div>
-	<div class="col-sm-1 colour-box-y">
-	</div>
-	</div>
-	</div>
-	<div class="col-md-5 services_type">
-	<div class="row">
-	<div class="col-sm-3">
-	<p class="services--icon"><i class="fa fa-video-camera" aria-hidden="true"></i></p>
-	</div>
-	<div class="col-sm-8 services--discription">
-	<h4>Video</h4>
-	<p>Your VISION and your self-willingness is the most powerful elements to conquer your goal.</p>
-	</div>
-	<div class="col-sm-1 colour-box-r">
-	</div>
-	</div>
-	</div>
-	</div>
+		<div class="services_title">
+			<h2>Our services</h2>
+			<p>We specialize in providing unique clean-coded, and powerful themes with outstanding free support!</p>
+		</div>
+		<div class="row services__block">
+			<div class="col-md-5 services_type">
+				<div class="row">
+					<div class="col-sm-3">
+						<p class="services--icon"><i class="fa fa-camera" aria-hidden="true"></i></p>
+					</div>
+					<div class="col-sm-8 services--discription">
+						<h4>Photo</h4>
+						<p>In photography there is a reality so subtle that it becomes more real than reality.</p>
+					</div>
+					<div class="col-sm-1 colour-box-y">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5 services_type">
+				<div class="row">
+					<div class="col-sm-3">
+						<p class="services--icon"><i class="fa fa-video-camera" aria-hidden="true"></i></p>
+					</div>
+					<div class="col-sm-8 services--discription">
+						<h4>Video</h4>
+						<p>Your VISION and your self-willingness is the most powerful elements to conquer your goal.</p>
+					</div>
+					<div class="col-sm-1 colour-box-r">
+					</div>
+				</div>
+			</div>
+		</div>
 
 
-	<div class="row services__block">
-	<div class="col-md-5 services_type">
-	<div class="row">
-	<div class="col-sm-3">
-	<p class="services--icon"><i class="fa fa-cog" aria-hidden="true"></i></p>
-	</div>
-	<div class="col-sm-8 services--discription">
-	<h4>Web development</h4>
-	<p>If you think math is hard, try web design.</p>
-	</div>
-	<div class="col-sm-1 colour-box-g">
-	</div>
-	</div>
-	</div>
-	<div class="col-md-5 services_type">
-	<div class="row">
-	<div class="col-sm-3">
-	<p class="services--icon"><i class="fa fa-tablet" aria-hidden="true"></i></p>
-	</div>
-	<div class="col-sm-8 services--discription">
-	<h4>Mobile development</h4>
-	<p>Your mobile device has quickly become the easiest portal into your digital self.</p>
-	</div>
-	<div class="col-sm-1 colour-box-y">
-	</div>
-	</div>
-	</div>
-	</div>
-	</div>
+		<div class="row services__block">
+			<div class="col-md-5 services_type">
+				<div class="row">
+					<div class="col-sm-3">
+						<p class="services--icon">
+							<i class="fa fa-cog" aria-hidden="true"></i></p>
+						</div>
+						<div class="col-sm-8 services--discription">
+							<h4>Web development</h4>
+							<p>If you think math is hard, try web design.</p>
+						</div>
+						<div class="col-sm-1 colour-box-g">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-5 services_type">
+					<div class="row">
+						<div class="col-sm-3">
+							<p class="services--icon"><i class="fa fa-tablet" aria-hidden="true"></i></p>
+						</div>
+						<div class="col-sm-8 services--discription">
+							<h4>Mobile development</h4>
+							<p>Your mobile device has quickly become the easiest portal into your digital self.</p>
+						</div>
+						<div class="col-sm-1 colour-box-y">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 </section>
 
 
 <!-- Works -->
 <section class="works" id="works">
 	<div class="container-works">
+
 		<div class="row">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 				
