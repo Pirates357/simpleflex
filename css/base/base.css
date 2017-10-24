@@ -7,13 +7,6 @@ body{
   color: #212529;
 }
 
-h1,h2, h3, h4, h5, h6 {
-  font-family:'Arial', sans-serif;
-  font-weight:700;
-  line-height:1.1em;
-  margin-bottom: 20px;
-}
-
 b{
   font-weight: 800;
 }
