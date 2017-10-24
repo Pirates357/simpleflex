@@ -20,3 +20,11 @@ b{
 a{
   text-decoration: none;
 }
+
+.navbarTop{
+  border-radius: 0px;
+}
+
+.navLeft{
+  float: right;
+}
