@@ -1,0 +1,34 @@
+.services{
+  background-color: #232323;
+  color: #fff;
+}
+.services h2,h4{
+  text-transform: uppercase;
+}
+.services_title{
+  padding: 50px;
+  text-align: center;
+}
+.services__block{
+  justify-content: center;
+}
+.services_type{
+  background-color: #2f2f2f;
+  margin: 10px;
+}
+.services--icon{
+  font-size: 40px;
+  padding:50%;
+}
+.services--discription{
+  padding: 10px;
+}
+.colour-box-y{
+  background-color: #f4ca65;
+}
+.colour-box-r{
+  background-color: #ec6d70;
+}
+.colour-box-g{
+  background-color: #a7cc66;
+}

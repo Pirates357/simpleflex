@@ -1,2 +1,9 @@
 @import url("base/heroimage.css");
 @import url("layout/about.css");
+
+@import url(base/base.css);
+@import url(layout/service.css);
+@import url(module/footer.css);
+@import url(bootstrap/bootstrap.css);
+@import url(bootstrap/bootstrap.min.css);
+@import url(font/css/font-awesome.css);
