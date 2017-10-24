@@ -4,7 +4,9 @@
   color: #fff;
   padding-top: 40px;
   width: 100%;
+  height: 100vh;
 }
+
 hr{ 
   width: 90px;
   margin: 0px auto;
@@ -42,7 +44,6 @@ hr{
   color: #343434;
   font-weight: normal;
 }
-
 @media (max-width: 800px){
   .content-type{
     flex-direction: column;
@@ -52,3 +53,4 @@ hr{
     margin: 0px auto;
   }
 }
+

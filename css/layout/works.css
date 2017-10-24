@@ -1,0 +1,37 @@
+.works{
+	width: 100%;
+	height: 70vh;
+	background-color: dodgerblue;
+}
+
+.container-works{
+	color: #ddd;
+	padding-left: 160px;
+	padding-top: 120px;
+}
+
+.contains--work{
+	font-size: 60px;
+	border: 3px solid #ddd;
+	margin-left: 10px;
+	width: 20%;
+	text-align: center;
+}
+
+button{
+	border: 1px solid #ddd;
+	font-size: 16px;
+	background-color: transparent;
+	margin-bottom: 15px; 
+}
+
+button.active{
+	border: 1px solid #ddd;
+	font-size: 16px;
+	background-color: transparent;
+}
+
+.icons{
+	padding-top: 25px;
+}
+

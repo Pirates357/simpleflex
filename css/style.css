@@ -3,6 +3,10 @@
 @import url("layout/price.css");
 @import url(base/base.css);
 @import url(layout/service.css);
+@import url(layout/quote.css);
+@import url(layout/works.css);
+@import url(layout/ourTeam.css);
+
 @import url(module/footer.css);
 @import url(bootstrap/bootstrap.css);
 @import url(bootstrap/bootstrap.min.css);
