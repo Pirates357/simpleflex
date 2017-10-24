@@ -42,3 +42,13 @@ hr{
   color: #343434;
   font-weight: normal;
 }
+
+@media (max-width: 800px){
+  .content-type{
+    flex-direction: column;
+  }
+  .content-item{
+    width: 300px;
+    margin: 0px auto;
+  }
+}
