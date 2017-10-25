@@ -4,12 +4,8 @@
 }
 
 .container-works{
-	color: #ddd;
-	padding-left: 160px;
-	padding-top: 120px;
-}
-
-.contains--work{
+	padding: 50px 0px 50px 0px;
+	color: #fff;
 	font-size: 60px;
 	border: 3px solid #ddd;
 	text-align: center;
@@ -31,4 +27,3 @@ button.active{
 .icons{
 	padding-top: 25px;
 }
-
