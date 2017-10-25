@@ -1,7 +1,6 @@
 .works{
-	width: 100%;
-	height: 70vh;
 	background-color: dodgerblue;
+	padding: 50px 0px;
 }
 
 .container-works{
@@ -13,8 +12,6 @@
 .contains--work{
 	font-size: 60px;
 	border: 3px solid #ddd;
-	margin-left: 10px;
-	width: 20%;
 	text-align: center;
 }
 
