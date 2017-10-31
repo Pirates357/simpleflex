@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,GAAG;EACF,WAAW,ECJL,mBAAmB;;ADQzB,yBAAQ;EACN,WAAW,ECTP,mBAAmB;EDUvB,KAAK,ECNA,IAAI;ADSX,MAAC;EACA,WAAW,ECbA,mBAAmB;EDc9B,KAAK,ECZE,OAAO",
+"sources": ["sass/main.scss","sass/base/variable.scss"],
+"names": [],
+"file": "main.css"
+}

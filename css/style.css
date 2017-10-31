@@ -11,3 +11,8 @@
 @import url(bootstrap/bootstrap.css);
 @import url(bootstrap/bootstrap.min.css);
 @import url(font/css/font-awesome.css);
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
+@import url(main.css);
+

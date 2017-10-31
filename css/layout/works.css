@@ -1,14 +1,14 @@
 .works{
 	background-color: dodgerblue;
 	padding: 50px 0px;
-}
-
-.container-works{
 	padding: 50px 0px 50px 0px;
 	color: #fff;
 	font-size: 60px;
-	border: 3px solid #ddd;
 	text-align: center;
+}
+
+.contains--work p{
+	color: white;
 }
 
 button{
@@ -22,8 +22,8 @@ button.active{
 	border: 1px solid #ddd;
 	font-size: 16px;
 	background-color: transparent;
-}
 
+}
 .icons{
 	padding-top: 25px;
 }

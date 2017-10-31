@@ -1,0 +1,18 @@
+
+@import "base/variable";
+
+nav{
+	font-family: $font;
+}
+
+body{
+	h1,h2,h3{
+			font-family: $font;
+			color: $white;
+	}
+
+	p{
+		font-family: $para-fonts;
+		color: $orange;
+	}
+}
